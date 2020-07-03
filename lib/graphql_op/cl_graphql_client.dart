@@ -1,7 +1,6 @@
 import 'package:graphql_flutter/graphql_flutter.dart';
 
 class ClGraphqlClient {
-
   GraphQLClient _graphQLClient;
 
   final OptimisticCache cache = OptimisticCache(
@@ -23,7 +22,7 @@ class ClGraphqlClient {
 
     final Link _link = _authLink.concat(_httpLink);
 
-    _graphQLClient =  GraphQLClient(
+    _graphQLClient = GraphQLClient(
       cache: cache,
       link: _link,
     );
