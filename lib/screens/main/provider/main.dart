@@ -1,10 +1,9 @@
-
 import 'package:flutter/widgets.dart';
 import 'package:pocwebview/graphql_op/response_wrapper.dart';
 import 'package:pocwebview/models/repo.dart';
 import 'package:pocwebview/repositories/main/main_repository.dart';
 
-class MainProvider extends ChangeNotifier{
+class MainProvider extends ChangeNotifier {
   MainProvider(this.repository);
 
   final MainRepository repository;

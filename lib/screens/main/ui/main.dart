@@ -12,7 +12,7 @@ class _MainPageState extends State<MainPage> {
   @override
   void initState() {
     super.initState();
-    Future.microtask(() async{
+    Future.microtask(() async {
       print('fetch');
       await Provider.of<MainProvider>(context, listen: false).fetchRepo();
     });

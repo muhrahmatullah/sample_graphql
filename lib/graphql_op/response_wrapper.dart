@@ -1,4 +1,3 @@
-
 class ResponseWrapper<T> {
   T data;
   String message;
@@ -8,6 +7,4 @@ class ResponseWrapper<T> {
   ResponseWrapper.success({this.data, this.message, this.error = false});
 
   ResponseWrapper.loading({this.data, this.error = false});
-
 }
-
