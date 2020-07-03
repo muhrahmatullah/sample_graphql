@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:gql/language.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:pocwebview/graphql_op/queries/readRepositories.dart';
+import 'package:pocwebview/graphql_op/queries/read_repo.dart';
 import 'package:pocwebview/graphql_op/response_wrapper.dart';
 import 'package:pocwebview/models/repo.dart';
 
